@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="shortcut icon" href="/src/img/pokebola.png" type="image/x-icon">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="/src/img/pokebola.png" alt="pekébola." class="pokebola" />
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+    <main class="slider">
+        <button class="btn-seta btn-voltar" id="btn-come-back">
+            <img src="/src/img/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="card selected fundo-1">
+                <div class="information">
+                    <h2  class="name">Pikachu</h2>
+                    <p class="life">HP 300</p>
+                </div>
+                <div class="container-image">
+                    <img src="/src/img/pikachu.png" alt="Pikachu" class="image-pokemon">
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Os Pikachus são pequenos roedores de quarenta centímetros e de seis quilogramas, com um corpo redondo, pernas curtas e uma longa cauda, quando macho, a cauda tem um formato de um raio, mas se o Pikachu for fêmea sua cauda ganha um coração na ponta.</p>
+                </div>
+            </li>
+
+            <li class="card fundo-2">
+                <div class="information">
+                    <h2  class="name">Charizazrd</h2>
+                    <p class="life">HP 800</p>
+                </div>
+                <div class="container-image">
+                    <img src="/src/img/charizard.png" alt="Charizazrd" class="image-pokemon">
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Geralmente, um Charizard é competitivo. Ele adora a batalha e seu espírito competitivo também é notável, uma vez que nunca vai cuspir fogo em um inimigo mais fraco a menos que provocado ou ordenado. Quando fica muito irritado, as chamas em sua cauda se tornam branco-azuladas.</p>
+                </div>
+            </li>
+
+            <li class="card fundo-3">
+                <div class="information">
+                    <h2  class="name">Mertwo</h2>
+                    <p class="life">HP 1200</p>
+                </div>
+                <div class="container-image">
+                    <img src="/src/img/mewtwo.png" alt="Mewtwo" class="image-pokemon">
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Mewtwo foi criado geneticamente em um laboratório, sendo um clone do misterioso antigo Pokémon Mew. É uma criatura com uma postura humanóide, mas tem algumas características felinas.</p>
+                </div>
+            </li>
+
+            <li class="card fundo-4">
+                <div class="information">
+                    <h2  class="name">Bulbasaur</h2>
+                    <p class="life">HP 320</p>
+                </div>
+                <div class="container-image">
+                    <img src="/src/img/buba.png" alt="Bulbasaur" class="image-pokemon">
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Bulbasaur é uma criatura quadrúpede réptil que lembra um dinossauro jovem, com um azul-verde manchado. Ele tem três dedos brancos ou garras crescendo fora de suas quatro pernas, e seus olhos são de um vermelho brilhante. A característica mais notável deste Pokémon é o bulbo de cebola na sua parte traseira, que cresce de uma semente em suas costas plantada por sua mãe ao nascer.</p>
+                </div>
+            </li>
+
+            <li class="card fundo-5">
+                <div class="information">
+                    <h2  class="name">Psyduck</h2>
+                    <p class="life">HP 300</p>
+                </div>
+                <div class="container-image">
+                    <img src="/src/img/psyduck.png" alt="Psyduck" class="image-pokemon">
+                </div>
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Psyduck tem um poder misterioso. Quando ele usa, este Pokémon gera ondas cerebrais que supostamente só seriam vista em quem dorme. A descoberta gerou controvérsias entre estudiosos.</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <button class="btn-seta" id="btn-next">
+            <img src="/src/img/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/junior.gomes.967/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/birajrpersonal" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/birajnior/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ubiratanbernardo/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://github.com/birajnior" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+
+</footer>
+</html>
